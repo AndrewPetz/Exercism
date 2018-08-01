@@ -22,7 +22,7 @@ public class SpaceAgeTest
     public void Age_on_venus()
     {
         var sut = new SpaceAge(189839836);
-        Assert.Equal(9.78, sut.OnVenus(), precision: 2);
+        Assert.Equal(9.77, sut.OnVenus(), precision: 2);
     }
 
     [Fact]
