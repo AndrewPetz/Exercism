@@ -33,7 +33,8 @@ public struct RationalNumber
         int denom2 = r2.denominator;
         RationalNumber retVal = new RationalNumber();
 
-
+        retVal.numerator = (num1 * denom2) + (num2 * denom1);
+        retVal.denominator = denom1 * denom2;
 
         return retVal;
     }
