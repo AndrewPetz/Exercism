@@ -14,8 +14,7 @@ public static class Bob
             retVal = "Fine. Be that way!";
             return retVal;
         }
-        char lastChar = statement[statement.Length - 1];
-        if (Equals(lastChar, '?'))
+        if (statement.EndsWith("?"))
         {
             if(hasLetters && statement.Equals(statement.ToUpper(), StringComparison.Ordinal)) {
                 retVal = "Calm down, I know what I'm doing!";

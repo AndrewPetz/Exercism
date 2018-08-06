@@ -31,10 +31,11 @@ public struct RationalNumber
         int denom1 = r1.denominator;
         int num2 = r2.numerator;
         int denom2 = r2.denominator;
-        RationalNumber retVal = new RationalNumber();
-
-        retVal.numerator = (num1 * denom2) + (num2 * denom1);
-        retVal.denominator = denom1 * denom2;
+        RationalNumber retVal = new RationalNumber
+        {
+            numerator = (num1 * denom2) + (num2 * denom1),
+            denominator = denom1 * denom2
+        };
 
         return retVal;
     }

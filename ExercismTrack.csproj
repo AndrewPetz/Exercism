@@ -81,8 +81,12 @@
     <Compile Include="reverse-string\ReverseStringTest.cs" />
     <Compile Include="rna-transcription\RnaTranscription.cs" />
     <Compile Include="rna-transcription\RnaTranscriptionTest.cs" />
+    <Compile Include="robot-name\RobotName.cs" />
+    <Compile Include="robot-name\RobotNameTest.cs" />
     <Compile Include="space-age\SpaceAge.cs" />
     <Compile Include="space-age\SpaceAgeTest.cs" />
+    <Compile Include="sum-of-multiples\SumOfMultiples.cs" />
+    <Compile Include="sum-of-multiples\SumOfMultiplesTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -97,8 +101,12 @@
     <None Include="rational-numbers\README.md" />
     <None Include="reverse-string\README.md" />
     <None Include="rna-transcription\README.md" />
+    <None Include="robot-name\.solution.json" />
+    <None Include="robot-name\README.md" />
     <None Include="space-age\.solution.json" />
     <None Include="space-age\README.md" />
+    <None Include="sum-of-multiples\.solution.json" />
+    <None Include="sum-of-multiples\README.md" />
   </ItemGroup>
   <ItemGroup>
     <Analyzer Include="packages\xunit.analyzers.0.10.0\analyzers\dotnet\cs\xunit.analyzers.dll" />
@@ -111,7 +119,9 @@
     <Content Include="rational-numbers\RationalNumbers.csproj" />
     <Content Include="reverse-string\ReverseString.csproj" />
     <Content Include="rna-transcription\RnaTranscription.csproj" />
+    <Content Include="robot-name\RobotName.csproj" />
     <Content Include="space-age\SpaceAge.csproj" />
+    <Content Include="sum-of-multiples\SumOfMultiples.csproj" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
