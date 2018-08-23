@@ -75,6 +75,8 @@
     <Compile Include="hello-world\HelloWorldTest.cs" />
     <Compile Include="leap\Leap.cs" />
     <Compile Include="leap\LeapTest.cs" />
+    <Compile Include="pangram\Pangram.cs" />
+    <Compile Include="pangram\PangramTest.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="rational-numbers\RationalNumbers.cs" />
@@ -100,6 +102,8 @@
     <None Include="hello-world\README.md" />
     <None Include="leap\README.md" />
     <None Include="packages.config" />
+    <None Include="pangram\.solution.json" />
+    <None Include="pangram\README.md" />
     <None Include="rational-numbers\.solution.json" />
     <None Include="rational-numbers\hints.md" />
     <None Include="rational-numbers\README.md" />
@@ -121,6 +125,7 @@
     <Content Include="hamming\Hamming.csproj" />
     <Content Include="hello-world\HelloWorld.csproj" />
     <Content Include="leap\Leap.csproj" />
+    <Content Include="pangram\Pangram.csproj" />
     <Content Include="rational-numbers\RationalNumbers.csproj" />
     <Content Include="reverse-string\ReverseString.csproj" />
     <Content Include="rna-transcription\RnaTranscription.csproj" />
