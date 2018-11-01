@@ -67,8 +67,12 @@
   <ItemGroup>
     <Compile Include="bob\Bob.cs" />
     <Compile Include="bob\BobTest.cs" />
+    <Compile Include="difference-of-squares\DifferenceOfSquares.cs" />
+    <Compile Include="difference-of-squares\DifferenceOfSquaresTest.cs" />
     <Compile Include="gigasecond\Gigasecond.cs" />
     <Compile Include="gigasecond\GigasecondTest.cs" />
+    <Compile Include="grains\Grains.cs" />
+    <Compile Include="grains\GrainsTest.cs" />
     <Compile Include="hamming\Hamming.cs" />
     <Compile Include="hamming\HammingTest.cs" />
     <Compile Include="hello-world\HelloWorld.cs" />
@@ -96,7 +100,11 @@
     <None Include="App.config" />
     <None Include="bob\.solution.json" />
     <None Include="bob\README.md" />
+    <None Include="difference-of-squares\.solution.json" />
+    <None Include="difference-of-squares\README.md" />
     <None Include="gigasecond\README.md" />
+    <None Include="grains\.solution.json" />
+    <None Include="grains\README.md" />
     <None Include="hamming\.solution.json" />
     <None Include="hamming\README.md" />
     <None Include="hello-world\README.md" />
@@ -121,7 +129,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="bob\Bob.csproj" />
+    <Content Include="difference-of-squares\DifferenceOfSquares.csproj" />
     <Content Include="gigasecond\Gigasecond.csproj" />
+    <Content Include="grains\Grains.csproj" />
     <Content Include="hamming\Hamming.csproj" />
     <Content Include="hello-world\HelloWorld.csproj" />
     <Content Include="leap\Leap.csproj" />

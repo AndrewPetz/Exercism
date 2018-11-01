@@ -6,16 +6,17 @@ public static class Pangram
     public static bool IsPangram(string input)
     {
         bool retVal = true;
+        string lowerInput = input.ToLower();
         List<string> alphabet = new List<string>()
         {
             "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"
         };
-        foreach(char c in input)
+        foreach(string s in alphabet)
         {
-            if(char.IsLetter(c))
+            if(char.IsLetter(s[0]))
             {
-                string s = char.ToString(c).ToLower();
-                if (!alphabet.Contains(s))
+                string lower = s.ToLower();
+                if (!lowerInput.Contains(lower))
                 {
                     retVal = false;
                     return retVal;
